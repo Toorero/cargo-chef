@@ -1,0 +1,11 @@
+[toolchain]
+# this toolchain is required if compiling aya nightly
+channel = "nightly"
+components = [
+  "cargo",
+  "rust-src",
+  "rust-std",
+  "rustc",
+]
+# for compiling standalone binaries
+targets = ["x86_64-unknown-linux-musl"]

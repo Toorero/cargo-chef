@@ -1,0 +1,10 @@
+[package]
+name = "mwe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "mwe"
+path = "src/main.rs"
